@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Gucci;
+  src: url(Fuente/Always\ Lovely.ttf);
+}
+body header {
+  background-color: #1b1b1b;
+  color: white;
+}
+body header .Header-lis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+body header .Header-lis ul li {
+  padding: 0 3px;
+  font-family: Gucci;
+}
+body nav {
+  padding-top: 15px;
+}
+body nav ul {
+  padding: 0 15px;
+}
+body nav ul li {
+  font-family: Gucci;
+}
+body main .Article-1 section .carousel-inner .carousel-caption A {
+  text-decoration: none;
+  color: black;
+}
+body main .Article-1 section .carousel-inner .carousel-caption .hero-content-centered a {
+  text-decoration: none;
+  color: black;
+  font-family: Gucci;
+}
+body main .Article-2 .GUCCI-DIANA-BAGS {
+  padding: 300px 0;
+}
+body main .Article-2 .GUCCI-DIANA-BAGS .carousel-inner .carousel-item .carousel-caption h1 {
+  color: #1b1b1b;
+  font-family: Gucci;
+}
+body main .Article-2 .GUCCI-DIANA-BAGS .carousel-item img {
+  margin: 0% auto;
+}
+body main .Article-2 .Gucci-Pasareal img {
+  text-align: center;
+  width: 700px;
+  height: 1200px;
+}
+body main .Article-2 .Gucci-Pasareal h6 {
+  text-align: center;
+  font-family: Gucci;
+}
+body main .Article-2 .Gucci-Pasareal h2 {
+  text-align: center;
+  font-family: Gucci;
+}
+body main .Article-2 .Gucci-Pasareal div {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+body main .Article-2 .Gucci-Pasareal div div {
+  background-color: #1b1b1b;
+}
+body main .Article-2 .Gucci-Pasareal div div h5 {
+  padding: 5px;
+  color: white;
+}
+body main .Article-2 .Gucci-Pasareal div div h5:hover {
+  color: black;
+}
+body main .Article-2 .Gucci-Pasareal div div:hover {
+  border: 3px solid black;
+  background-color: white;
+}
+body main .Article-2 .Gucci-Love-Parade div {
+  text-align: center;
+}
+body main .Article-2 .Gucci-Love-Parade h6 {
+  font-family: Gucci;
+  text-align: center;
+}
+body main .Article-2 .Gucci-Love-Parade h2 {
+  font-family: Gucci;
+  text-align: center;
+}
+body main .Article-2 .Gucci-Love-Parade div {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+body main .Article-2 .Gucci-Love-Parade div div {
+  background-color: #1b1b1b;
+}
+body main .Article-2 .Gucci-Love-Parade div div h5 {
+  font-family: Gucci;
+  padding: 5px;
+  color: white;
+}
+body main .Article-2 .Cosmogonie {
+  padding: 300px 0;
+}
+body main .Article-2 .Cosmogonie div {
+  background-image: url(https://media.gucci.com/content/HomepageVideoBackgroundStandard_1300x758/1652737266/HomepageVideoBackgroundStandard_cosmogonie-entry-02_001_Default.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+  text-align: center;
+}
+body main .Article-2 .Cosmogonie div img {
+  margin: 0% auto;
+}
+body main .Article-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body main .Article-3 section div h6 {
+  text-align: center;
+}
+body main .Article-3 section div p {
+  text-align: center;
+}
+body main .Article-3 section h6 {
+  text-align: center;
+}
+body main .Article-3 section p {
+  text-align: center;
+}
+body footer {
+  background-color: #1b1b1b;
+  color: #999;
+}
+body footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body footer div .Footer-Secciones {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body footer div .Footer-Secciones ul {
+  list-style: none;
+}
+body footer div .Footer-Secciones ul li {
+  font-size: 12px;
+}
+body footer div .Footer-Secciones ul li h6 {
+  padding: 50px 0;
+}
+body footer div .Footer-Secciones ul li a {
+  text-decoration: none;
+  color: #999;
+}
+body footer div .Footer-Secciones-2 {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body footer div .Footer-Secciones-2 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+body footer div .Footer-Secciones-2 ul li h6 {
+  padding: 50px 0;
+}
+body footer div .Footer-Secciones-2 .Gucci-Logos li {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+body footer .Footer-End {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body footer .Footer-End ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+@media (max-width: 720px) {
+  main .Article-2 .Gucci-Pasareal div img {
+    max-width: 400px;
+    height: 550px;
+  }
+  main .Article-2 .Gucci-Love-Parade div img {
+    max-width: 500px;
+    height: 500px;
+  }
+  main .Article-3 section img {
+    max-width: 250px;
+    height: 250px;
+  }
+  main .Article-3 section h6 {
+    font-size: 20px;
+  }
+  main .Article-3 section p {
+    font-size: 20px;
+  }
+  footer div ul li h6 {
+    font-size: 15px;
+  }
+  footer div ul li p {
+    font-size: 15px;
+  }
+  footer div ul li a {
+    font-size: 15px;
+  }
+  footer div ul li a img {
+    max-width: 120px;
+    max-height: 120px;
+  }
+}
+@media (max-width: 480px) {
+  main .Article-2 .Gucci-Pasareal div img {
+    max-width: 250px;
+    height: 450px;
+  }
+  main .Article-2 .Gucci-Love-Parade div img {
+    max-width: 300px;
+    height: 300px;
+  }
+  main .Article-3 section img {
+    max-width: 150px;
+    height: 150px;
+  }
+  main .Article-3 section h6 {
+    font-size: 10px;
+  }
+  main .Article-3 section p {
+    font-size: 10px;
+  }
+  footer div ul li h6 {
+    font-size: 10px;
+  }
+  footer div ul li p {
+    font-size: 10px;
+  }
+  footer div ul li a {
+    font-size: 10px;
+  }
+  footer div ul li a img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+@media (max-width: 375px) {
+  main .Article-2 .Gucci-Pasareal div img {
+    max-width: 250px;
+    height: 450px;
+  }
+  main .Article-2 .Gucci-Love-Parade div img {
+    max-width: 250px;
+    height: 250px;
+  }
+  main .Article-3 section img {
+    max-width: 100px;
+    height: 100px;
+  }
+  main .Article-3 section h6 {
+    font-size: 5px;
+  }
+  main .Article-3 section p {
+    font-size: 5px;
+  }
+  footer div ul li h6 {
+    font-size: 5px;
+  }
+  footer div ul li p {
+    font-size: 5px;
+  }
+  footer div ul li a {
+    font-size: 5px;
+  }
+  footer div ul li a img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
